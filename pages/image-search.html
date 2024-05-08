@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Пошук Google</title>
+</head>
+
+<body>
+    <div id="nav">
+        <a href="../index.html"><button>Пошук Google</button></a>
+        <a href="advanced-search.html"><button>Розширений пошук</button></a>
+    </div>
+    <div id="search-block">
+        <div class="logo-block">
+            <img id="logo" src="../images/googlelogo.png" alt="Google Logo">
+            <span id="under-logo-text">Картинки</span>
+        </div>
+        <form action="http://images.google.com/images">
+            <div id="search-box">
+                <img id="search-icon" src="../images/search.png" alt="search icon">
+                <input id="search-field" type="text" name="q">
+                <button class="search-box-button" id="search-blue-button" type="submit" title="Search"><img src="../images/search-blue.png" alt="Search"></button>
+            </div>
+            <input type="submit" name="search" hidden>
+        </form>
+    </div>
+</body>
+
+</html>

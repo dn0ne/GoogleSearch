@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Пошук Google</title>
+</head>
+
+<body>
+    <div id="nav">
+        <img id="logo-mini" src="../images/googlelogo.png" alt="">
+        <a href="../index.html"><button>Пошук Google</button></a>
+        <a href="image-search.html"><button>Картинки</button></a>
+    </div>
+    <h3>Розширений пошук</h3>
+    <hr>
+    <h4>Знайти сторінки з...</h4>
+    <form id="advanced-search-block" action="https://google.com/search">
+        <label for="as_q">усіма цими словами:</label>
+        <input type="text" name="as_q">
+        <label for="as_epq">саме цим словом або фразою:</label>
+        <input type="text" name="as_epq">
+        <label for="as_oq">будь-яким із цих слів:</label>
+        <input type="text" name="as_oq">
+        <label for="as_eq">жодним з цих слів:</label>
+        <input type="text" name="as_eq">
+        <div></div>
+        <button id="advanced-search-button" type="submit">Розширений пошук</button>
+    </form>
+</body>
+
+</html>
